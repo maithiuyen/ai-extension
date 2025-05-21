@@ -1,0 +1,35 @@
+#floating-ai-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 9999;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+#floating-ai-button img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#floating-toolbar {
+  position: fixed;
+  bottom: 110px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+#floating-toolbar img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
